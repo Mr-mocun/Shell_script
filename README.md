@@ -30,6 +30,8 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='sh  /root/shell_script/delete.sh'
 root@icloud: ~/shell_script# source /root/.bashrc
+root@icloud: ~/shell_script# chmod +x auto_clear_trash_tmp_v3.sh
+root@icloud: ~/shell_script# ./auto_clear_trash_tmp_v3.sh
 ```
 后续如果需要删除文件，仅需 `rm 文件名` 即可，如果需要强制使用 `rm` 命令，可以使用 `\` 转义，即 `\rm -rf 文件名`
 
