@@ -36,3 +36,6 @@ root@icloud: ~/shell_script# ./auto_clear_trash_tmp_v3.sh
 后续如果需要删除文件，仅需 `rm 文件名` 即可，如果需要强制使用 `rm` 命令，可以使用 `\` 转义，即 `\rm -rf 文件名`
 
 ## 持续更新中……
+
+## 免责声明
+用户在使用如上 root 脚本功能时，对 root 脚本使用及获取 root 权限后带来的风险由用户自行承担。
